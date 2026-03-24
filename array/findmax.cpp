@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>.
+#include<bits/stdc++.h>
 using namespace std;
 void findmax(int arr[],int n){
     int max = arr[0];
