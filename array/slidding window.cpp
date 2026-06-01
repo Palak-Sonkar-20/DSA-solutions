@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
+//sliding window use to find continuous subarray of size k
+//complexity O(n) instead of o(n*n))
 void firstnegative(vector<int> &arr, int k){
     deque<int> dq;
     vector<int> ans;
